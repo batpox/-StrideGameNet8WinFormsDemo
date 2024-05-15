@@ -1,5 +1,5 @@
 ﻿
-namespace DemoNet5StrideGameWinform
+namespace DemoNet8StrideGameWinform
 {
     partial class Form1
     {
@@ -29,30 +29,31 @@ namespace DemoNet5StrideGameWinform
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            label1 = new System.Windows.Forms.Label();
+            SuspendLayout();
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(188, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(522, 37);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Stride Game Engine .NET 5 Winform Demo";
+            label1.AutoSize = true;
+            label1.Location = new System.Drawing.Point(88, 4);
+            label1.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(231, 15);
+            label1.TabIndex = 1;
+            label1.Text = "Stride Game Engine .NET 8 Winform Demo";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1043, 841);
-            this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Stride Engine Demo";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            ClientSize = new System.Drawing.Size(487, 341);
+            Controls.Add(label1);
+            Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            Name = "Form1";
+            Text = "Stride Engine Demo";
+            Load += Form1_Load;
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

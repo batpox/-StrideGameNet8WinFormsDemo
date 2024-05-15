@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DemoNet5StrideGameWinform
+namespace DemoNet8StrideGameWinform
 {
     static class Program
     {

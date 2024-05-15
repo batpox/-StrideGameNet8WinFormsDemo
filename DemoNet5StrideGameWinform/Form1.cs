@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DemoNet5StrideGameWinform
+namespace DemoNet8StrideGameWinform
 {
     public partial class Form1 : Form
     {
