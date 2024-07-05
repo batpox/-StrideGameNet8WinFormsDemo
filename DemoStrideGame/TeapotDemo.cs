@@ -44,7 +44,7 @@ namespace DemoStrideGame
             base.Draw(gameTime);
 
             // Clear screen
-            GraphicsContext.CommandList.Clear(GraphicsDevice.Presenter.BackBuffer, Color.Magenta);
+            GraphicsContext.CommandList.Clear(GraphicsDevice.Presenter.BackBuffer, new Color4(0.1f, 0.1f, 0.1f, 1.0f) );
             GraphicsContext.CommandList.Clear(GraphicsDevice.Presenter.DepthStencilBuffer, DepthStencilClearOptions.DepthBuffer | DepthStencilClearOptions.Stencil);
 
             // Set render target

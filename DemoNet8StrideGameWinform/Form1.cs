@@ -21,6 +21,11 @@ namespace DemoNet8StrideGameWinform
         public Form1()
         {
             InitializeComponent();
+            InitializeStride3D();
+        }
+
+        private void InitializeStride3D()
+        {
             _gameContext = new GameContextWinforms(this);
             _game = new TeapotDemo();
             _game.WindowCreated += (sender, args) => {
@@ -29,6 +34,7 @@ namespace DemoNet8StrideGameWinform
                     game.Window.AllowUserResizing = true;
                 }
             };
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
